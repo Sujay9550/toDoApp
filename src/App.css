@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&display=swap");
+
+body {
+  font-family: "Baloo 2", cursive;
+}
+
+.app-container {
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+.app-heading {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.new-task-container {
+  min-height: 514px;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.new-task-container img {
+  width: 35px;
+  height: 35px;
+}
+
+.new-task-container .tasksend-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.new-task-container .add-btn {
+  background-color: rgb(20, 139, 236);
+  color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.new-task-container .sent-btn {
+  background-color: rgb(241, 241, 241);
+  border: none;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.task-list-container {
+  min-height: 514px;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.task-list-image-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.task-table {
+  border: 1px solid #ddd;
+}
+
+.task-table .table-head {
+  background-color: rgb(100, 104, 109);
+  color: #ffffff;
+}
+
+.task-table img {
+  width: 24px;
+  height: 24px;
+}
+
+.task-table .edit-icon,
+.task-table .delete-icon {
+  cursor: pointer;
+}
+
+.primary-badge {
+  background-color: rgb(232, 244, 253);
+  color: rgb(20, 139, 236);
+}
+
+.warning-badge {
+  background-color: rgb(255, 236, 218);
+  color: rgb(236, 142, 20);
+}
+
+.secondary-badge {
+  background-color: rgb(245, 244, 244);
+  color: rgb(92, 87, 82);
+}
+
+.danger-badge {
+  background-color: rgb(255, 224, 231);
+  color: rgb(238, 65, 108);
+}
+
+.success-badge {
+  background-color: rgb(227, 255, 219);
+  color: rgb(63, 180, 27);
+}
+
+/* Footer Section */
+.footer-container .copyright-author,
+.footer-container .credits {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-container .credits a {
+  text-decoration: none;
+  color: rgb(92, 87, 82);
+}
