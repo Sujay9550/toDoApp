@@ -11,13 +11,22 @@ const Footer = () => {
             </span>
           </p>
           <p className="credits text-secondary mb-0">
-            Icons Credits -
+            Icons & Images Credits -
             <a
               href="https://www.flaticon.com/icons"
               target="_blank"
               rel="noopener noreferrer"
             >
+              {" "}
               Flaticon
+            </a>
+            <a
+              href="https://www.pexels.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {" "}
+              Pexels
             </a>
           </p>
         </div>
